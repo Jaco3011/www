@@ -1,0 +1,55 @@
+body{
+	background-color : #282828 ;
+	color: white ;
+	font-family: "Calibri" ;
+	font-size: 24px ;
+}
+#container{
+	width: 1000px ;
+	margin: auto ;
+}
+#upper_part{
+	height: 250px ;
+}
+#middle_part{
+	width: 50% ;
+	float: left ;
+}
+#sidetile {
+	float: left ;
+}
+#lower_part{
+	height: 200px ;
+	font-size: 16px ;
+	clear:both;
+	padding: 30px ;
+}
+.basic_tile{
+	margin: 15px;
+	padding: 15px;
+	background-color: red ;
+	width: 190px;
+	height: 130px;
+	float: left ;
+}
+.basic_tile:tile1{
+	background-color: green ;
+}
+#upperpart{
+	width: 440px;
+	height: 320px ;
+	background-color: blue ;
+	margin: 15px;
+	padding: 15px;
+}
+#lowerpart{
+	margin: 15px;
+	padding: 15px;
+	
+}
+#lol {
+	margin-top: 20px ;
+	margin-bottom: 20px ;
+	height: 40px ;
+	background-color: red ;
+}
