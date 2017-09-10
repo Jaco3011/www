@@ -8,9 +8,8 @@ body
 
 #container
 {
-	width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
+	!important margin-left: auto;
+	!important margin-right: auto;
 }
 
 .rectangle
@@ -22,17 +21,18 @@ body
 
 .square
 {
-	width: 50%;
-	float: left;
+	width: 100% ;
+	height: 600px ;
+	float: left ;
 }
 
 #logo
 {
 	float: left;
-	font-family: 'Josefin Sans', sans-serif;
 	font-size: 70px;
 	width: 600px;
 	text-align: left;
+	font-family: 'Josefine Sans', sans-serif ;
 }
 
 #zegar
@@ -46,54 +46,54 @@ body
 .tile1
 {
 	margin: 10px;
-	width: 230px;
 	height: 142px;
-	background-color: #52681f;
-	float: left;
+	width: 230px;
+	background-color: #dd2433;
 	text-align: center;
 }
 
 .tile1:hover
 {
-	background-color: #41570e;
+	background-color: #bb0211;
 }
 
 .tile2
 {
 	margin: 10px;
+	border:0px;
+	display:border;
+	height: 142px;
 	width: 230px;
 	height: 142px;
-	background-color: #4252e1;
-	float: left;
+	background-color: #4f25d5;
 	text-align: center;
+
 }
 
 .tile2:hover
 {
-	background-color: #3141d0;
+	background-color: #2d03b3;
 }
 
 .tile3
 {
 	margin: 10px;
-	width: 230px;
 	height: 142px;
-	background-color: #93c748;
-	float: left;
+	width: 230px;
+	background-color: #4fc744;
 	text-align: center;
 }
 
 .tile3:hover
 {
-	background-color: #82b637;
+	background-color: #2da522;
 }
 
 .tile4
 {
-	margin: 10px;
+	margin: 0 auto;
 	width: 420px;
-	height: 82px;
-	background-color: #ee5a32;
+	background-color: #dd5137;
 	text-align: center;
 	font-size: 18px;
 	padding: 30px;
@@ -102,9 +102,8 @@ body
 
 .tile5
 {
-	margin: 10px;
+	margin: 0 auto;
 	width: 420px;
-	height: 244px;
 	background-color: #666666;
 	text-align: justify;
 	padding: 30px;
@@ -179,6 +178,7 @@ a.tilelinkhtml5
 {
 	color: #ffffff;
 	text-decoration: none;
+	display: block;
 }
 
 a.sociallink
